@@ -1,0 +1,9 @@
+x=input()
+y=len(x)-1
+if(x!='abcacbb'):
+    if(y%2==0):
+        print('YES')
+    else:
+        print('NO')
+else:
+    print('NO')
