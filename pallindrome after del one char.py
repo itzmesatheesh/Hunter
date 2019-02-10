@@ -6,9 +6,9 @@ def hunter_37():
 		c+=a[b//2+1:]
 		c=c[::-1]
 		if(a[:b//2]==c):
-			print('Yes')
+			print('YES')
 			return
-	print('No')
+	print('NO')
 try:
 	hunter_37()
 except:
