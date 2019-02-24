@@ -1,0 +1,13 @@
+a=int(input())
+b=0
+l=[int(x) for x in input().split()]
+for i in range(0,a):
+    if(i==l[i]):
+        if(b==0):
+          print(i,end="")
+          b=1
+        else:
+            print(" ",end="")
+            print(i,end="")
+if(b==0):
+    print("-1")
